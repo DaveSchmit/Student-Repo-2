@@ -1,0 +1,9 @@
+language: java
+jdk:
+ -jdk1.8.10
+ after_success:
+ -mvn clean install
+ notifications:
+ 	email:
+ 		recipients:
+ 		-d.macgabhann1@nuigalway.ie
